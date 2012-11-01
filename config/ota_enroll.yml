@@ -1,0 +1,11 @@
+development:
+  ca_crt: /support/ca_cert.pem
+  ca_key: /support/ca_private.pem
+  ssl_key: /support/ssl_private.pem
+  ssl_crt: /support/ssl_cert.pem
+  ra_crt: /support/ra_cert.pem
+  ra_key: /support/ra_private.pem
+  organization: AppBounty
+  identifier: enroll.appbounty.net
+  display_name: AppBounty Profile
+  description: We need to verify you
