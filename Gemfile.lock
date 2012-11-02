@@ -1,9 +1,10 @@
 GIT
-  remote: git@github.com:fguillen/OTAEnroll.git
-  revision: c00da58cd323dcaacbb63ad58a9c34a521f51775
+  remote: git@github.com:SponsorPay/OTAEnroll.git
+  revision: 35590be6b7e0d01f9d35b362210667009fda0c7f
   specs:
-    OTAEnroll (0.0.1)
+    ota_enroll (0.0.1)
       plist (>= 3.1.0)
+      rails (~> 3.2.8)
       uuidtools (>= 2.1.3)
 
 GEM
@@ -96,8 +97,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  OTAEnroll!
   jquery-rails
   json
+  ota_enroll!
   rails (= 3.2.8)
   sqlite3
