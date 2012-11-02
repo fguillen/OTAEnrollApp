@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:fguillen/OTAEnroll.git
-  revision: a7ee8d97f44a825d594904a1ab539c591c724213
+  revision: c00da58cd323dcaacbb63ad58a9c34a521f51775
   specs:
     OTAEnroll (0.0.1)
       plist (>= 3.1.0)
