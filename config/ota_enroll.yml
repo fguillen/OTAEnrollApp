@@ -1,6 +1,4 @@
 development:
-  ca_crt: /support/ca.crt
-  ca_key: /support/ca.key
   ssl_key: /support/server.key
   ssl_crt: /support/server.crt
   organization: AppBounty

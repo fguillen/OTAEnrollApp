@@ -1,6 +1,7 @@
 GIT
   remote: git@github.com:SponsorPay/OTAEnroll.git
   revision: 35590be6b7e0d01f9d35b362210667009fda0c7f
+  branch: paths
   specs:
     ota_enroll (0.0.1)
       plist (>= 3.1.0)
