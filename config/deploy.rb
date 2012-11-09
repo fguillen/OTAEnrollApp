@@ -6,7 +6,7 @@ load "capper/unicorn"
 
 set :asset_pipeline, false
 set :application, "enr"
-set :repository, "git@github.com:fguillen/OTAEnrollApp.git"
+set :repository, "git@github.com:SponsorPay/OTAEnrollApp.git"
 set :user, "enr"
 set :deploy_to, "/var/app/enr"
 set :scm, :git
