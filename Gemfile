@@ -8,3 +8,10 @@ gem "jquery-rails"
 # gem "OTAEnroll", :git => "git@github.com:fguillen/OTAEnroll.git"
 gem "ota_enroll", :git => "git@github.com:SponsorPay/OTAEnroll.git"
 # gem "ota_enroll", :path => "/Users/fguillen/Develop/SponsorPay/OTAEnroll"
+gem "capistrano", "2.12.0"
+gem "capper", "1.1.0", :require => false
+
+group :production do
+  gem "syslogger"
+  gem "unicorn"
+end
